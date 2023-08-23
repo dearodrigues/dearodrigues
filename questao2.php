@@ -16,14 +16,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body style="overflow: hidden">
+<body>    
+    <div class=" border border-black" style="background-color: #F8B323; width: 100%;">                
+        <p class="h1 my-3 ms-5" style="font-family: 'impactregular'; font-weight: bold; " > SOUTDAH </p>                   
+    </div>    
     <div class="container-fluid">
-        <div class="row border border-black" style="background-color: #F8B323; width:100%">                
-            <p class="h1 my-3 ms-5" style="font-family: 'impactregular'; font-weight: bold; " > SOUTDAH </p>                   
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="card mt-3 col-md-6" style="margin: auto;"> 
+        <div class="card mt-3 col-lg-6" style="margin: auto;"> 
             <div class="card-body p-0">            
                 <div class="container-fluid p-0">
                     <div class="row ">                    
@@ -38,16 +36,16 @@
                             </div>
                             <form action="questao3.php" method="post">
                                 <div class="mb-3 mt-2 rounded" style="border:solid 1px; border-color: #3C5BC8">
-                                    <input class="form-control form-control-lg "  type="submit" value="Nem um pouco" name="btnq1">
+                                    <input class="form-control form-control-lg "  type="submit" value="Nem um pouco" name="btnq2">
                                 </div>
                                 <div class="mb-3 mt-2 rounded" style="border:solid 1px; border-color: #3C5BC8">
-                                    <input class="form-control form-control-lg" type="submit" value="Só um pouco" name="btnq1">
+                                    <input class="form-control form-control-lg" type="submit" value="Só um pouco" name="btnq2">
                                 </div>
                                 <div class="mb-3 mt-2 rounded" style="border:solid 1px; border-color: #3C5BC8">
-                                    <input class="form-control form-control-lg" type="submit" value="Bastante" name="btnq1">
+                                    <input class="form-control form-control-lg" type="submit" value="Bastante" name="btnq2">
                                 </div>
                                 <div class="mb-3 my-2 rounded" style="border:solid 1px; border-color: #3C5BC8">
-                                    <input class="form-control form-control-lg" type="submit" value="Demais" name="btnq1">
+                                    <input class="form-control form-control-lg" type="submit" value="Demais" name="btnq2">
                                 </div>                       
                             </form>
                         </div>   
