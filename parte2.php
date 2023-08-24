@@ -12,51 +12,60 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOUTDAH - Escolha como deseja continuar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="/assets/css/soutdah.css" rel="stylesheet" >
+    <link href="/assets/css/soutdah.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="border border-black" style="background-color: #F8B323; width: 100%;">                
-        <p class="h1 my-3 ms-5" style="font-family: 'impactregular'; font-weight: bold; " > SOUTDAH </p>                   
+    <div class="border border-black" style="background-color: #F8B323; width: 100%;">
+        <p class="h1 my-3 ms-5" style="font-family: 'impactregular'; font-weight: bold; "> SOUTDAH </p>
     </div>
-    <div class="card my-2" style="width: 80%; height:100%; margin: auto;">        
-        <div class="card-body p-0">            
+    <div class="card my-2 col-lg-6" style=" margin: auto;">
+        <div class="card-body p-0">
             <div class="container-fluid pe-0">
                 <div class="row">
-                    <div class="col-xl-6 d-flex justify-content-center">
-                        <img class="img-fluid rounded " src="/assets/images/bg-left.png">               
+                    <div class="col-xl-6 mx-auto">
+                        <img class="img-fluid rounded " src="/assets/images/bg-left.png">
                     </div>
                     <div class="row">
-                            <div class="col-xl-3">
-                            </div>
-                            <div class="col-xl-6">                
-                                <p class="h5" style="text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 600">
-                                    Para receber sua avaliação é preciso preencher algumas informações necessárias.
-                                </p> 
-                            </div>
-                            <div class="col-xl-3">
-                            </div>
-                        </div> 
-                    <div class="col-xl-6 mt-5">    	        
+                        <div class="col-xl-3">
+                        </div>
+                        <div class="col-xl-6">
+                            <p class="h5"
+                                style="text-align: center; font-family: 'Montserrat', sans-serif; font-weight: 600">
+                                Para receber sua avaliação é preciso preencher algumas informações necessárias.
+                            </p>
+                        </div>
+                        <div class="col-xl-3">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 my-5">
                         <form action="parte3.php" method="post">
-                            <div class="card col-md-11 m-3 float-start"> 
-                                <div class="card-body m-2">                           
+                            <div class="card col-sm-11 m-auto">
+                                <div class="card-body m-1">
                                     <label class="form-label" for="txtnome">Nome Completo</label><br>
-                                    <input class="form-control form-control-lg" type="text" name="txtnome" id="txtnome" maxlength="50" required><br>
+                                    <input class="form-control form-control-lg" type="text" name="txtnome" id="txtnome"
+                                        maxlength="50" required><br>
                                     <label class="form-label" for="txtdtnascimento">Data de Nascimento</label><br>
-                                    <input class="form-control form-control-lg" type="date" name="txtdtnascimento" id="txtdtnascimento" required><br>
+                                    <input class="form-control form-control-lg" type="date" name="txtdtnascimento"
+                                        id="txtdtnascimento" required><br>
                                     <label class="form-label" for="txtemail">E-mail</label><br>
-                                    <input class="form-control form-control-lg" type="email" name="txtemail" id="txtemail" maxlength="150" required><br>
+                                    <input class="form-control form-control-lg" type="email" name="txtemail"
+                                        id="txtemail" maxlength="150" required><br>
                                     <label class="form-label" for="txtcidade">Cidade</label><br>
-                                    <input class="form-control form-control-lg" type="text" name="txtcidade" id="txtcidade" maxlength="150"><br>
+                                    <input class="form-control form-control-lg" type="text" name="txtcidade"
+                                        id="txtcidade" maxlength="150"><br>
                                     <label class="form-label" for="txtuf">UF</label><br>
                                     <select class="form-control form-control-lg" name="txtuf" id="txtuf" required><br>
                                         <option value="">Selecione</option>
@@ -89,40 +98,28 @@
                                         <option value="TO">Tocantins</option>
                                     </select><br>
                                     <label class="form-label" for="txtescola">Escola</label><br>
-                                    <input class="form-control form-control-lg" type="text" name="txtescola" id="txtescola" maxlength="50" required><br>
+                                    <input class="form-control form-control-lg" type="text" name="txtescola"
+                                        id="txtescola" maxlength="50" required><br>
                                     <label class="form-label" for="txtserie">Série</label><br>
-                                    <input class="form-control form-control-lg" type="text" name="txtserie" id="txtserie" maxlength="50" required><br>
+                                    <input class="form-control form-control-lg" type="text" name="txtserie"
+                                        id="txtserie" maxlength="50" required><br>
+                                </div>
+                                <div class="card-footer ">
+                                    <input class="form-control form-control-lg text-wrap"
+                                        style="color:white; background-color: #4989C5" type="submit"
+                                        value="Enviar informações" name="btnenviar">
                                 </div>
                             </div>
-                            <div class=" col-lg-6 mt-5 me-5 float-end">
-                                <input class="form-control form-control-lg" style="color:white; background-color: #4989C5" type="submit" value="Enviar informações" name="btnenviar">
-                            </div> 
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row ">
-                    <div class="col-xl-6 ">
-                     
-                        <div class="row ">
-                            <div class="col-xl-3">
-                            </div>                       
-                            <div class="col-xl-6 mx-5 d-none d-xl-block d-xl-block" >
-                                <img id="img-fluid rounded sticky-bottom" style="width: 60%;" src="/assets/images/bg-bottom-left.png">
-                            </div>
-                            <div class="col-xl-3">
-                            </div>
-                        </div>
-                    </div>  
-                    <div class="col-xl-6" style="">
-                        
-                    </div>  
-                </div>        
-            </div>
         </div>
-    </div>    
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

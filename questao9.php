@@ -32,7 +32,7 @@
                     <div class="row d-flex justify-content-center">                    
                         <div class="col-md-6 ">
                             <div class="h5 mb-4" style="text-align: center; font-family: 'Prompt', sans-serif; font-weight: bold;">
-                                <p>>É esquecido em atividades do dia a dia.</p>
+                                <p>É esquecido em atividades do dia a dia.</p>
                             </div>
                             <form action="questao10.php" method="post">
                                 <div class="mb-3 mt-2 rounded" style="border:solid 1px; border-color: #3C5BC8">
